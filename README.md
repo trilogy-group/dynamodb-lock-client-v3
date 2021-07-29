@@ -1,4 +1,4 @@
-# dynamodb-lock-client
+# dynamodb-lock-client-v3
 
 _Stability: 1 - [Experimental](https://github.com/tristanls/stability-index#stability-1---experimental)_
 
