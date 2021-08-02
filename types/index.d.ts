@@ -31,7 +31,7 @@ declare module 'dynamodb-lock-client-v3' {
   }
 
   export class LockClient<PartitionTableKeyType extends string | number> {
-    acquireLock (id: PartitionTableKeyType, callback: (error: Error, lock: Lock) => void): void;
+    acquireLock (id: PartitionTableKeyType | unknown, callback: (error: Error, lock: Lock) => unknown): unknown;
   }
 
   export class FailClosed<PartitionTableKeyType extends string | number> extends LockClient<PartitionTableKeyType> {
