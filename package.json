@@ -2,6 +2,7 @@
   "name": "dynamodb-lock-client-v3",
   "version": "1.0.0",
   "description": "A general-purpose distributed locking library built for AWS DynamoDB V3.",
+  "types": "types/index.d.ts",
   "scripts": {
     "inject-examples": "node scripts/injectExamples.js",
     "prepublishOnly": "npm run inject-examples",
