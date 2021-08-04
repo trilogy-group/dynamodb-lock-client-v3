@@ -1,6 +1,6 @@
 {
   "name": "@trilogy-group/dynamodb-lock-client-v3",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A general-purpose distributed locking library built for AWS DynamoDB V3.",
   "types": "types/index.d.ts",
   "scripts": {
